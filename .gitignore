@@ -1,0 +1,5 @@
+.pytest_cache
+.pdm.toml
+__pycache__
+__pypackages__
+.vscode
