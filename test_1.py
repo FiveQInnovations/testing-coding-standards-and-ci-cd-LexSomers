@@ -5,7 +5,6 @@ multiple inputs.
 
 import io
 import app
-import pytest
 
 
 def test_hello_default():
