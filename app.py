@@ -7,7 +7,7 @@ def hello(name='world'):
     return f'Hello {name}'
 
 
-def count_lines(f):
+def count_lines(file):
     """Return the number of lines in a given file object."""
 
-    return len(f.readlines())
+    return len(file.readlines())
