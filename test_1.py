@@ -2,7 +2,7 @@
 Optional: find how to leverage pytest to parametrize the second test with
 multiple inputs.
 """
-
+import pytest
 import io
 import app
 
@@ -39,4 +39,4 @@ def test_hello_integration():
     different unit) to do so.
     """
     with open('app.py', 'r') as f:
-        assert app.count_lines(f) == 11
+        assert app.count_lines(f) == 13
