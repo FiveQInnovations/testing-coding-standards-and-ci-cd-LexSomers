@@ -19,6 +19,7 @@ jobs:
       - uses: education/autograding@v1
   
   test:
+    name: Run Pytests
     runs-on: ubuntu-latest
     steps:
         - name: Checkout code
