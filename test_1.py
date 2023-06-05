@@ -3,9 +3,9 @@ Optional: find how to leverage pytest to parametrize the second test with
 multiple inputs.
 """
 
-import pytest
 import io
 import app
+import pytest
 
 
 def test_hello_default():
