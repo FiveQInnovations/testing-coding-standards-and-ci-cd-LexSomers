@@ -54,7 +54,7 @@ jobs:
       run: pip install pylint
 
     - name: Run pylint
-      run: pylint your_python_script.py
+      run: pylint app.py
 
   deploy:
     needs: [test, lint]
