@@ -70,4 +70,4 @@ jobs:
         with:
           branch: gh-pages
           folder: pages
-          ssh-key: $(( secrets.GITHUB_TOKEN ))
+          GITHUB_TOKEN: $(( secrets.GITHUB_TOKEN ))
